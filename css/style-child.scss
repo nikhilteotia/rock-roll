@@ -1,0 +1,48 @@
+ %spec{
+        margin:2rem;
+	padding: 2rem;
+        text-align: center;
+      }
+
+ #bands{
+        
+        @extend %spec;
+        color: black;
+        background-image: linear-gradient(red, yellow);
+        
+   }
+
+
+#music{
+
+	
+        @extend %spec;
+	color: white;
+	background-image: linear-gradient(#37cc5f, #0f96d9);
+}
+
+ $margintext: 2rem;
+ $marginp: 1rem; 
+ 
+
+  .about-text{
+
+  margin :$margintext;
+  padding:$margintext;
+    font-family: cursive;
+  color : #a0ed2d;
+  text-align: center;
+
+     p{
+
+  margin: $marginp;
+  padding: $marginp;
+      }
+
+
+
+
+ } 
+
+
+

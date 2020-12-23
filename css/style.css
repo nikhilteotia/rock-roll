@@ -1,0 +1,128 @@
+
+/* ---------------------------HTML elements --------------------------------- */
+body{
+  background-color:#26140c;
+}
+
+
+
+/* ------------------------------Navbar css------------------------------------- */
+
+.margin-nav{
+
+	margin-right: 1rem;
+}
+
+.text-brand{
+
+	color: white;
+	text-shadow: 1px 1px #002111;
+}
+
+.text-brand:hover{
+
+	color:#000;
+}
+
+.nav-text{
+  color: #000011;
+  text-shadow: 1px 1px #f50000;
+
+}
+
+.nav-text:hover{
+	color:#2cf516;
+}
+
+/*--------------------------------slider css-----------------------------------*/
+
+.margin-slider{
+	margin-top: 3.6rem;
+	margin-bottom: 3rem;
+}
+
+.carousel-inner > .carousel-item > img {
+  width:100%;
+  height:570px;
+}
+
+@media(min-width: 300px) and (max-width:767px) {
+  .carousel-inner > .carousel-item > img {
+    width:100%;
+    height:300px;
+}
+
+  
+}
+
+
+/*----------------------------------aboutbands-----------------------------------------------*/
+ .about-heading{
+
+ 	margin: 1rem;
+	padding: 1rem;
+	font-family: monospace;
+	font-size: 3rem;
+	text-align: center;
+	text-shadow: 1px 1px red;
+	color: #fff;
+ }
+
+
+
+
+/*---------------------------------------table---------------------------------------*/
+
+.table-text > .thead-dark > tr > th{
+
+   font-family: sans-serif;
+   color:#f50b;
+   font-weight: bold;
+   font-size: 1rem;
+
+
+}
+
+.table-text td{
+
+   font-family: sans-serif;
+   color:#fff000;
+   font-size: 0.8rem;
+
+}
+
+#song h3{
+
+	margin: 1rem;
+	padding: 1rem;
+	font-family: monospace;
+	text-align: center;
+	text-shadow: 1px 1px red;
+	color: #fff;
+}
+
+
+/*----------------------------------------page-end----------------------------------------*/
+
+.page-end{
+
+	margin: 5rem;
+	padding: 2rem;
+	font-family: monospace;
+	text-align: center;
+	text-shadow: 3px 3px #ff0099;
+	color: #fff;
+}
+
+
+/*-----------------------------------------headings-spacing----------------------------------------*/
+
+#bands h2,#music h2{
+	margin:0.5rem;
+	padding:0.5rem;
+}
+
+#bands h1,#music h1{
+	margin:1rem;
+	padding:1rem;
+}

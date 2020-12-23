@@ -1,0 +1,24 @@
+#bands, #music {
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center; }
+
+#bands {
+  color: black;
+  background-image: linear-gradient(red, yellow); }
+
+#music {
+  color: white;
+  background-image: linear-gradient(#37cc5f, #0f96d9); }
+
+.about-text {
+  margin: 2rem;
+  padding: 2rem;
+  font-family: cursive;
+  color: #a0ed2d;
+  text-align: center; }
+ .about-text p {
+    margin: 1rem;
+    padding: 1rem; }
+
+/*# sourceMappingURL=style-child.css.map */
